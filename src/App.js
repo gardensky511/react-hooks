@@ -4,7 +4,7 @@ import UseEffect from "./UseEffect";
 import UseContext from "./UseContext";
 import { UseReducerCounter, UseReducerInfo } from "./UseReducer";
 import UseMemo from "./UseMemo";
-import UseCallback from "./useCallback";
+import UseCallback from "./UseCallback";
 import UseRef from "./UseRef";
 import "./App.css";
 
