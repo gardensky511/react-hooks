@@ -4,6 +4,8 @@ import UseEffect from "./UseEffect";
 import UseContext from "./UseContext";
 import { UseReducerCounter, UseReducerInfo } from "./UseReducer";
 import UseMemo from "./UseMemo";
+import UseCallback from "./useCallback";
+import UseRef from "./UseRef";
 import "./App.css";
 
 function App() {
@@ -30,7 +32,11 @@ function App() {
       {/* <UseReducerCounter />
       <UseReducerInfo /> */}
 
-      <UseMemo />
+      {/* <UseMemo /> */}
+
+      {/* <UseCallback /> */}
+
+      <UseRef />
     </div>
   );
 }
