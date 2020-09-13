@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import UseState from "./UseState";
 import UseEffect from "./UseEffect";
 import UseContext from "./UseContext";
-import UseReducer from "./UseReducer";
+import { UseReducerCounter, UseReducerInfo } from "./UseReducer";
 import "./App.css";
 
 function App() {
@@ -26,9 +26,9 @@ function App() {
 
       {/* <useContext /> */}
 
-      <UseReducer />
+      <UseReducerCounter />
 
-      <useReducer />
+      <UseReducerInfo />
     </div>
   );
 }
