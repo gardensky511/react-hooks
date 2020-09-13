@@ -3,6 +3,7 @@ import UseState from "./UseState";
 import UseEffect from "./UseEffect";
 import UseContext from "./UseContext";
 import { UseReducerCounter, UseReducerInfo } from "./UseReducer";
+import UseMemo from "./UseMemo";
 import "./App.css";
 
 function App() {
@@ -26,9 +27,10 @@ function App() {
 
       {/* <useContext /> */}
 
-      <UseReducerCounter />
+      {/* <UseReducerCounter />
+      <UseReducerInfo /> */}
 
-      <UseReducerInfo />
+      <UseMemo />
     </div>
   );
 }
