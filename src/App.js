@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import UseState from "./UseState";
+import UseEffect from "./UseEffect";
+import UseContext from "./UseContext";
+import UseReducer from "./UseReducer";
+import "./App.css";
 
 function App() {
+  const [visible, setVisible] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      {/* <useState /> */}
+
+      {/* <div>
+        <button
+          onClick={() => {
+            setVisible(!visible);
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          {visible ? "HIDE" : "SHOW"}
+        </button>
+        <hr />
+        {visible && <useEffect />}
+      </div>
+      <useEffect /> */}
+
+      {/* <useContext /> */}
+
+      <UseReducer />
+
+      <useReducer />
     </div>
   );
 }
